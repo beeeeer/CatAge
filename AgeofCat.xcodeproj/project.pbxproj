@@ -14,6 +14,7 @@
 		6646DAEA1B1C670B0022AEB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6646DAE91B1C670B0022AEB9 /* Images.xcassets */; };
 		6646DAED1B1C670B0022AEB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6646DAEB1B1C670B0022AEB9 /* LaunchScreen.xib */; };
 		6646DAF91B1C670B0022AEB9 /* AgeofCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6646DAF81B1C670B0022AEB9 /* AgeofCatTests.swift */; };
+		6646DB031B1C68700022AEB9 /* stylish-3d-buttons-psd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6646DB021B1C68700022AEB9 /* stylish-3d-buttons-psd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6646DAF21B1C670B0022AEB9 /* AgeofCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeofCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6646DAF71B1C670B0022AEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6646DAF81B1C670B0022AEB9 /* AgeofCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeofCatTests.swift; sourceTree = "<group>"; };
+		6646DB021B1C68700022AEB9 /* stylish-3d-buttons-psd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stylish-3d-buttons-psd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		6646DADD1B1C670B0022AEB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6646DB021B1C68700022AEB9 /* stylish-3d-buttons-psd.png */,
 				6646DADE1B1C670B0022AEB9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6646DAE81B1C670B0022AEB9 /* Main.storyboard in Resources */,
+				6646DB031B1C68700022AEB9 /* stylish-3d-buttons-psd.png in Resources */,
 				6646DAED1B1C670B0022AEB9 /* LaunchScreen.xib in Resources */,
 				6646DAEA1B1C670B0022AEB9 /* Images.xcassets in Resources */,
 			);
@@ -346,9 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AgeofCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,9 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AgeofCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -415,6 +425,7 @@
 				6646DAFE1B1C670B0022AEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6646DAFF1B1C670B0022AEB9 /* Build configuration list for PBXNativeTarget "AgeofCatTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +434,7 @@
 				6646DB011B1C670B0022AEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
